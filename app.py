@@ -6,22 +6,19 @@ from phonenumbers import geocoder
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 from datetime import datetime
 
-BOT_TOKEN = "8470332157:AAHe5jPCdXU8mMNve4XACJVNF2r5H1mr904"
+BOT_TOKEN = "8522191896:AAE_12V9zmosKmKHZ467465BTFomsUkXh1U"
 bot = Bot(token=BOT_TOKEN)
 
 GROUP_IDS = [
-    -1002469444163,
+    -1003697417358,
   
 ]
 
 API_URLS = [
     "https://kamina-otp.up.railway.app/npm-neon/sms",
     "https://web-production-b717.up.railway.app/api?type=sms",
-    "https://kamina-otp.up.railway.app/d-group/sms",
+    "https://apiotps.vercel.app/api/tempotps?type=sms",
     "https://kamina-otp.up.railway.app/mait/sms",
-    "https://kami-broken.up.railway.app/api?type=sms",
-    "https://juanidniz-pw-orpin.vercel.app/api/tempotps?type=sms",
-    "https://teamlegend-gamma.vercel.app/api/dgroup?type=sms",
     "https://api-kami-nodejs-production.up.railway.app/api?type=sms",
 ]
 
@@ -134,12 +131,12 @@ Powered by 𝐍𝐨𝐦𝐚𝐧 💗
 async def send_to_all_groups(message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="📱 Channel", url="https://t.me/RN_INCOME_TIPS"),
-            InlineKeyboardButton(text="☎️ Numbers", url="https://t.me/+4mt-ZKLhSRc1YmU1")
+            InlineKeyboardButton(text="📱 Channel", url="https://t.me/+ty3G5sHXpVMxMmE0"),
+            InlineKeyboardButton(text="☎️ Numbers", url="https://t.me/+ty3G5sHXpVMxMmE0")
         ],
         [
-            InlineKeyboardButton(text="👨‍💻 Developer", url="https://t.me/junaidniz786"),
-            InlineKeyboardButton(text="📣 YouTube", url="http://www.youtube.com/@RnIncomeTips")
+            InlineKeyboardButton(text="👨‍💻 Developer", url="https://t.me/KANAV_HERE1"),
+            InlineKeyboardButton(text="🍳 Panel", url="https://t.me/JunaidnnRebot")
         ]
     ])
 
