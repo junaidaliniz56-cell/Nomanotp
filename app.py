@@ -11,7 +11,6 @@ bot = Bot(token=BOT_TOKEN)
 
 GROUP_IDS = [
     -1003697417358,
-  
 ]
 
 API_URLS = [
@@ -124,7 +123,7 @@ def format_message(record):
 <blockquote>📩 Full Message:</blockquote>
 <pre>{msg}</pre>
 
-Powered by 𝐍𝐨𝐦𝐚𝐧 💗 
+Powered by 𝐾𝐴𝑁𝐴𝑉 
 """
 
 
