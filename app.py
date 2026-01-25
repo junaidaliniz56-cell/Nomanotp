@@ -6,7 +6,7 @@ from phonenumbers import geocoder
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 from datetime import datetime
 
-BOT_TOKEN = "8522191896:AAE_12V9zmosKmKHZ467465BTFomsUkXh1U"
+BOT_TOKEN = "8329387482:AAEVblpg7qZQPvidoxZomO-zpHqmdOca_FI"
 bot = Bot(token=BOT_TOKEN)
 
 GROUP_IDS = [
