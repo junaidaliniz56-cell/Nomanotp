@@ -10,7 +10,7 @@ BOT_TOKEN = "8329387482:AAEVblpg7qZQPvidoxZomO-zpHqmdOca_FI"
 bot = Bot(token=BOT_TOKEN)
 
 GROUP_IDS = [
-    -1003697417358,
+    -1003785593177,
 ]
 
 API_URLS = [
